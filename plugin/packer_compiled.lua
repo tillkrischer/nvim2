@@ -110,6 +110,7 @@ _G.packer_plugins = {
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["lsp-zero.nvim"] = {
+    config = { "\27LJ\2\n‹\2\0\0\t\0\20\0\0266\0\0\0'\2\1\0B\0\2\0029\1\2\0'\3\3\0B\1\2\0019\1\4\0'\3\5\0005\4\r\0005\5\v\0005\6\t\0005\a\a\0005\b\6\0=\b\b\a=\a\n\6=\6\f\5=\5\14\4B\1\3\0019\1\15\0B\1\1\0016\1\16\0009\1\17\0019\1\18\0015\3\19\0B\1\2\1K\0\1\0\1\0\1\17virtual_text\2\vconfig\15diagnostic\bvim\nsetup\rsettings\1\0\0\bLua\1\0\0\16diagnostics\1\0\0\fglobals\1\0\0\1\2\0\0\bvim\16sumneko_lua\14configure\16recommended\vpreset\rlsp-zero\frequire\0" },
     loaded = true,
     path = "C:\\Users\\till\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
@@ -135,6 +136,7 @@ _G.packer_plugins = {
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
+    config = { "\27LJ\2\nï\1\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\14highlight\1\0\2\venable\2&additional_vim_regex_highlighting\1\21ensure_installed\1\0\2\17sync_install\1\17auto_install\2\1\b\0\0\thelp\15javascript\15typescript\6c\blua\trust\bvim\nsetup\28nvim-treesitter.configs\frequire\0" },
     loaded = true,
     path = "C:\\Users\\till\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
@@ -150,17 +152,24 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
-    config = { "\27LJ\2\n^\0\0\3\0\6\0\t6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0K\0\1\0\nlight\15background\bopt\26colorscheme rose-pine\bcmd\bvim\0" },
+    config = { "\27LJ\2\n]\0\0\3\0\6\0\t6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0K\0\1\0\tdark\15background\bopt\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
     path = "C:\\Users\\till\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
+    config = { "\27LJ\2\nÅ\2\0\0\a\0\16\0,6\0\0\0'\2\1\0B\0\2\0026\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\6\0009\5\a\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\b\0009\5\t\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\n\0009\5\v\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\f\0009\5\r\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\14\0009\5\15\0004\6\0\0B\1\5\1K\0\1\0\14git_files\n<C-p>\14help_tags\15<leader>fh\fbuffers\15<leader>fb\14live_grep\15<leader>fg\15find_files\15<leader>ff\6n\bset\vkeymap\bvim\22telescope.builtin\frequire\0" },
     loaded = true,
     path = "C:\\Users\\till\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\till\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   undotree = {
+    config = { "\27LJ\2\n]\0\0\5\0\a\0\n6\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0006\4\0\0009\4\5\0049\4\6\4B\0\4\1K\0\1\0\19UndotreeToggle\bcmd\14<leader>u\6n\bset\vkeymap\bvim\0" },
     loaded = true,
     path = "C:\\Users\\till\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
@@ -168,10 +177,26 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: telescope.nvim
+time([[Config for telescope.nvim]], true)
+try_loadstring("\27LJ\2\nÅ\2\0\0\a\0\16\0,6\0\0\0'\2\1\0B\0\2\0026\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\6\0009\5\a\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\b\0009\5\t\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\n\0009\5\v\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\f\0009\5\r\0004\6\0\0B\1\5\0016\1\2\0009\1\3\0019\1\4\1'\3\5\0'\4\14\0009\5\15\0004\6\0\0B\1\5\1K\0\1\0\14git_files\n<C-p>\14help_tags\15<leader>fh\fbuffers\15<leader>fb\14live_grep\15<leader>fg\15find_files\15<leader>ff\6n\bset\vkeymap\bvim\22telescope.builtin\frequire\0", "config", "telescope.nvim")
+time([[Config for telescope.nvim]], false)
+-- Config for: undotree
+time([[Config for undotree]], true)
+try_loadstring("\27LJ\2\n]\0\0\5\0\a\0\n6\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0006\4\0\0009\4\5\0049\4\6\4B\0\4\1K\0\1\0\19UndotreeToggle\bcmd\14<leader>u\6n\bset\vkeymap\bvim\0", "config", "undotree")
+time([[Config for undotree]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\nï\1\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\14highlight\1\0\2\venable\2&additional_vim_regex_highlighting\1\21ensure_installed\1\0\2\17sync_install\1\17auto_install\2\1\b\0\0\thelp\15javascript\15typescript\6c\blua\trust\bvim\nsetup\28nvim-treesitter.configs\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
-try_loadstring("\27LJ\2\n^\0\0\3\0\6\0\t6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0K\0\1\0\nlight\15background\bopt\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
+try_loadstring("\27LJ\2\n]\0\0\3\0\6\0\t6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0K\0\1\0\tdark\15background\bopt\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
+-- Config for: lsp-zero.nvim
+time([[Config for lsp-zero.nvim]], true)
+try_loadstring("\27LJ\2\n‹\2\0\0\t\0\20\0\0266\0\0\0'\2\1\0B\0\2\0029\1\2\0'\3\3\0B\1\2\0019\1\4\0'\3\5\0005\4\r\0005\5\v\0005\6\t\0005\a\a\0005\b\6\0=\b\b\a=\a\n\6=\6\f\5=\5\14\4B\1\3\0019\1\15\0B\1\1\0016\1\16\0009\1\17\0019\1\18\0015\3\19\0B\1\2\1K\0\1\0\1\0\1\17virtual_text\2\vconfig\15diagnostic\bvim\nsetup\rsettings\1\0\0\bLua\1\0\0\16diagnostics\1\0\0\fglobals\1\0\0\1\2\0\0\bvim\16sumneko_lua\14configure\16recommended\vpreset\rlsp-zero\frequire\0", "config", "lsp-zero.nvim")
+time([[Config for lsp-zero.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

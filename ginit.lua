@@ -1,2 +1,2 @@
-vim.cmd "Guifont! Consolas:h8"
+vim.cmd "Guifont! Hack NF:h8"
 
